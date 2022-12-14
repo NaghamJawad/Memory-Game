@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet"> -->
+
+  </head>
+  <body>
+    <div class="control-buttons">
+      <span>Start Game</span>
+    </div>
+    <div id="win-container">
+      <div class="win">
+        <h1>You Won</h1>
+        <div id="Wrongtries">
+          Wrong Tries: <span></span>
+        </div>
+       <div class="direct">
+        <div class="back">
+          <span>Back</span>
+        </div>
+          <div class="cont">
+            <span class="continue">Continue</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="finish-container">
+      <div class="finish">
+        <h1>Done</h1>
+        <div id="fWrongtries">
+          Wrong Tries: <span></span>
+        </div>
+        <div class="direct">
+          <div class="back">
+            <span>Back</span>
+          </div>
+            <div class="ret">
+              <span class="retry">Retry</span>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="title">
+      <h1>Level 0</h1>
+    </div>
+    <div class="memory-game-blocks" id="memory-game-blocks">
+    </div>
+    <div class="info-container">
+        <div class="name">
+          The Player's Name: <span></span>
+        </div>
+        <div class="tries">
+          Wrong Tries: <span>0</span>
+        </div>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
